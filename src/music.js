@@ -23,7 +23,7 @@ export function Music() {
     }
     useEffect(allSongsRequest,[])
     return (
-        <div className="home-container">
+        <div  className="home-container">
             <div className="search-container">
                 <div>
                     <Paper
@@ -43,6 +43,7 @@ export function Music() {
             </div>
             <div className="main-container">
                 {album.map(({ _id, movie, language, link }) => <Display
+                key={_id}
                     Id={_id}
                     Movie={movie}
                     Language={language}

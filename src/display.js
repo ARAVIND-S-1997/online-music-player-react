@@ -9,7 +9,7 @@ export function Display({Movie,Link}){
                                 height="340"
                                 frameBorder="0"
                                 title="myFrame"
-                                allowfullscreen=""
+                
                                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
                             </iframe>
                             <div className="titles">
